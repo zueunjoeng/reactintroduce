@@ -1,4 +1,4 @@
-@font-face { 
+font-face { 
     font-family: 'GmarketSans'; 
     font-style: normal; 
     font-weight: 300; 
@@ -17,4 +17,22 @@
     font-style: normal; 
     font-weight: 900; 
     src: url(../fonts/GmarketSansBold.woff2) format('woff2');
+}
+
+
+body{
+    margin:0;
+    padding:0;
+    font-family: 'GmarketSans', sans-serif;
+    font-weight: 500; 
+}
+
+.fw300{
+    font-weight: 300 !important;
+}
+.fw500{
+    font-weight: 500 !important;
+}
+.fw900{
+    font-weight: 900 !important;
 }
