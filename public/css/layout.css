@@ -16,3 +16,51 @@ li a{
     text-decoration: none;
     color:black;
 }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    position: relative;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+  }
+  
+  /* 드롭다운 메뉴 스타일 설정 */
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none; /* 기본적으로 드롭다운을 숨김 */
+    background-color: white;
+    border: 1px solid #fcfcfc;
+    z-index: 1000;
+    padding: 0;
+  
+}
+  
+  .dropdown-menu li {
+    padding: 0;
+  }
+  
+  .dropdown-menu li a {
+    padding: 5px 10px;
+    display: block;
+    white-space: nowrap;  
+    text-align:center;
+  }
+  
+  li:hover .dropdown-menu {
+    display: block;
+    width: auto;
+  }
+  
+  li:hover .hd_contact{
+    color: lightpink;
+  }
